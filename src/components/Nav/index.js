@@ -11,7 +11,7 @@ const Nav = ()=> {
                     <Link to='/cadastro'>CADASTRAR PRODUTOS</Link>
                 </div>
                 <div classNama={Styles.link}>
-                    <Link to='/estoque'>ESTOQUE</Link>
+                    <Link to='/buscar'>BUSCAR PRODUTO</Link>
                 </div>
                 <div classNama={Styles.link}>
                     <Link   to='/sistema'>COMPRAS</Link>
