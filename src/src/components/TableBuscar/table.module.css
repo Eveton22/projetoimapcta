@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    border-color: 1px solid #ffff;
+}
+
+.container table {
+    background-color: #b1a7a7;
+    padding: 14px;
+    border-radius: 9px;
+}
+
+.container table th {
+    padding: 26px;
+}
+
+.lixeira {
+    cursor: pointer;
+}
+.editar{
+    cursor: pointer;
+}
+
+.containerTable {
+    background-color: #F0F0F0;
+}
+
+.containerDados {
+    background-color: #fff;
+}
+.containerDados tr td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.containerDados td {
+    text-align: center;
+}
+
+.containerDados  tr td:hover {
+    background-color: #ded4d4;
+}
+
+
+.buttoneditar {
+    background-color: blue;
+    color: #ffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tdbutton  {
+    background-color: #b1a7a7;
+    border: 1px solid #b1a7a7;
+}
+
+.buttonlixo {
+    width: 100%;
+    background-color: red;
+    color: #ffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container .formmodal input{
+    padding-top: 5px;
+}
+
+.formmodal button{
+    border-radius: 4px;
+}
+.formmodal button:hover{
+    background-color: rgb(52, 236, 42);
+    color: #ffff;
+}

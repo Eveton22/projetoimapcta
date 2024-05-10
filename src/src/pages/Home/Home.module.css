@@ -1,0 +1,39 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f8ff4;
+    
+}
+
+.container div {
+    text-align: center;
+        width: 700px;
+}
+.container div h3{
+    padding-bottom: 40px;
+}
+
+.container div button a {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container div button {
+    background-color: orange;
+    padding: 12px 26px;
+    border-radius: 9px;
+    border: 0;
+    cursor: pointer;
+}
+.container div button:hover {
+    background-color: orange;
+    padding: 12px 26px;
+    border-radius: 9px;
+    border: 2px solid #ffff;
+    cursor: pointer;
+}

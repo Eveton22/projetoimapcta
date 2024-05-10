@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+.containerprincipal {
+    width: 80vw;
+    height: 100vh;
+    background-color: #2f8ff4;
+}
+
+.containerForm {
+    padding-top: 30px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.containerForm form {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containertitulo {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+}
+
+
+.inputs {
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.inputs input
+ {
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+    gap: 20px;
+    padding: 8px;
+    font-size: 17px;
+}
+
+.inputs input[type=number]::-webkit-file-upload-button,
+        input[type=number]::-webkit-inner-spin-button{
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+.inputsdescricao {
+    font-weight: bold;
+}
+.inputsdescricao input {
+    width: 390px;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.inputscodigo{
+    padding-left: 10px;
+    
+}
+.inputscodigo input {
+    width: 100px;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+.cadastrar {
+    padding: 10px;
+    padding-top: 17px;
+    
+}
+
+.cadastrar button {
+    background-color: #f08622;
+    color: #f0ebeb;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 9px;
+    font-size: 16px;
+    border: 0;
+    transition: 0.1s;
+}
+.cadastrar button:hover {
+    background-color: #f0ebeb;
+    color:  #f08622;
+}
